@@ -3,11 +3,9 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
 body {
   margin-top: 100px;
 }
-
 h1,
 h2,
 h3 {
@@ -85,4 +83,13 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 25px;
+  }
+  .images {
+    display: none;
+  }
 }
